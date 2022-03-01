@@ -3,7 +3,7 @@ pipeline {
         IMAGEN = "megandil/myapp"
         USUARIO = 'USER_DOCKERHUB'
     }
-    agent any
+    agent none
     stages {
         stage("Testear proyecto") {
             agent {
